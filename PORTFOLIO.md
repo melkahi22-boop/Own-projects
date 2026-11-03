@@ -25,3 +25,5 @@ Google Fonts enhance typography; local system fonts provide a fallback. The site
 Riverbank fintech delivery and bank/government stakeholder experience were added from the owner’s supplied details. Independent concepts are separate from shipped products. Visible product references use “People Experiences in M365”. Original product screenshots are retained as requested; source documentation URLs retain their original paths.
 
 The current design uses a purple palette and 20px desktop / 18px mobile body text. `font-examples.html` compares Arial, Verdana (DejaVu Sans fallback), and Georgia for owner review. Both supplied email addresses are mailto links. The independent Pickup Confidence case study is a full article, inspired by the supplied reference structure; research limitations remain explicit.
+
+The owner’s approved portrait is bundled as `assets/melinda-kahi.jpg` and displayed by default for all visitors. The photo picker remains a browser-local preview; previously saved placeholder previews use an older storage key and cannot override the new default.

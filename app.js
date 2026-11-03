@@ -28,7 +28,7 @@ function displayPhoto(source) {
   artwork.hidden = true;
   document.querySelector('.photo-control').innerHTML = '<span aria-hidden="true">＋</span> Change photo';
 }
-try { const saved = localStorage.getItem('pm-portfolio-photo'); if (saved) displayPhoto(saved); } catch { /* Storage is optional. */ }
+try { const saved = localStorage.getItem('pm-portfolio-photo-v2'); if (saved) displayPhoto(saved); } catch { /* Storage is optional. */ }
 document.querySelector('#photo-upload').addEventListener('change', event => {
   const file = event.target.files[0];
   if (!file) return;
@@ -47,7 +47,7 @@ document.querySelector('#photo-upload').addEventListener('change', event => {
       canvas.getContext('2d').drawImage(image, 0, 0, canvas.width, canvas.height);
       const source = canvas.toDataURL('image/jpeg', .85);
       displayPhoto(source);
-      try { localStorage.setItem('pm-portfolio-photo', source); notify('Photo saved in this browser. Publishing it for all visitors requires adding it to the website files.'); }
+      try { localStorage.setItem('pm-portfolio-photo-v2', source); notify('Photo saved in this browser. Publishing it for all visitors requires adding it to the website files.'); }
       catch { notify('Photo preview added. Your browser could not save it for future visits.'); }
     };
     image.src = reader.result;
