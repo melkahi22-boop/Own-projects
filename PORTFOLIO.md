@@ -8,7 +8,7 @@ From `/workspace/Own-projects`, run `npm start` (Python 3 is required). The serv
 
 ## Content
 
-Edit `index.html` for copy and links, `style.css` for appearance, and `app.js` for hash navigation and photo preview. Shipped-product metrics and independent concept hypotheses are labelled separately. LinkedIn is the active contact channel; the PDF supplied no email address. Consultancy service descriptions are based on the PM capabilities described in the PDF, rather than claims of past consultancy clients.
+The deployed `index.html` includes its CSS and JavaScript so styling and navigation do not depend on separate file requests. Edit the embedded `<style>` and `<script>` blocks for deployed appearance and behaviour. `style.css` and `app.js` are retained as reference sources; changes to them alone will not affect the deployed page. Shipped-product metrics and independent concept hypotheses are labelled separately. LinkedIn is the active contact channel; the PDF supplied no email address. Consultancy service descriptions are based on the PM capabilities described in the PDF, rather than claims of past consultancy clients.
 
 The keyboard-accessible photo picker resizes and saves a preview in the current browser only. To publish a photo for every visitor, add the approved image to `assets/`, set the profile image source in `index.html`, remove its `hidden` attribute, and hide the illustration. Browser-local previews are not server uploads. Do not upload a sensitive photo on a shared browser.
 
