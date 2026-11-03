@@ -22,4 +22,4 @@ The canonical URL, social metadata, robots file, and sitemap already reference t
 
 Google Fonts enhance typography; local system fonts provide a fallback. The site does not use analytics, a contact-form backend, or third-party JavaScript.
 
-Riverbank fintech delivery and bank/government stakeholder experience were added from the owner’s supplied details. Independent concepts are separate from shipped products. Product-specific Teams and Outlook mentions and screenshots have been removed from visible content; source documentation URLs retain their original paths.
+Riverbank fintech delivery and bank/government stakeholder experience were added from the owner’s supplied details. Independent concepts are separate from shipped products. Visible product references use “People Experiences in M365”. Original product screenshots are retained as requested; source documentation URLs retain their original paths.
