@@ -1,6 +1,6 @@
 # Melinda Kahi — PM portfolio
 
-Responsive static website for https://melindakahipm.com/ with Home, Products portfolio, Services, and Contacts. Content and diagrams were adapted from the supplied “Melinda Kahi · Senior PM Portfolio” PDF. No build step or package installation is needed.
+Responsive static website for https://melindakahipm.com/ with Home, Products portfolio, Case studies, Services, and Contacts. Content and diagrams were adapted from the supplied “Melinda Kahi · Senior PM Portfolio” PDF. No build step or package installation is needed.
 
 ## Run
 
@@ -21,3 +21,5 @@ Add `melindakahipm.com` as a custom domain in the hosting dashboard. Use the DNS
 The canonical URL, social metadata, robots file, and sitemap already reference the requested domain. Setting these files does not connect DNS or deploy the website. Hosting provider and authorised deployment access remain necessary. No deployment or DNS changes have been performed.
 
 Google Fonts enhance typography; local system fonts provide a fallback. The site does not use analytics, a contact-form backend, or third-party JavaScript.
+
+Riverbank fintech delivery and bank/government stakeholder experience were added from the owner’s supplied details. Independent concepts are separate from shipped products. Product-specific Teams and Outlook mentions and screenshots have been removed from visible content; source documentation URLs retain their original paths.

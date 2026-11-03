@@ -7,7 +7,7 @@ function showPage() {
     if (link.hash === `#${current}`) link.setAttribute('aria-current', 'page');
     else link.removeAttribute('aria-current');
   }
-  const titles = { home: 'Home', portfolio: 'Products portfolio', services: 'Services', contact: 'Contacts' };
+  const titles = { home: 'Home', portfolio: 'Products portfolio', 'case-studies': 'Case studies', services: 'Services', contact: 'Contacts' };
   document.title = `${titles[current]} · Melinda Kahi · Senior PM`;
   window.scrollTo(0, 0);
 }
