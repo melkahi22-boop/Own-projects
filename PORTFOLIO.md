@@ -23,3 +23,5 @@ The canonical URL, social metadata, robots file, and sitemap already reference t
 Google Fonts enhance typography; local system fonts provide a fallback. The site does not use analytics, a contact-form backend, or third-party JavaScript.
 
 Riverbank fintech delivery and bank/government stakeholder experience were added from the owner’s supplied details. Independent concepts are separate from shipped products. Visible product references use “People Experiences in M365”. Original product screenshots are retained as requested; source documentation URLs retain their original paths.
+
+The current design uses a purple palette and 20px desktop / 18px mobile body text. `font-examples.html` compares Arial, Verdana (DejaVu Sans fallback), and Georgia for owner review. Both supplied email addresses are mailto links. The independent Pickup Confidence case study is a full article, inspired by the supplied reference structure; research limitations remain explicit.
