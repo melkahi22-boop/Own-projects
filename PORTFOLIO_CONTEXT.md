@@ -104,3 +104,14 @@ Owner supplied “Melinda Kahi · Senior PM Portfolio.pdf” (13-page exported p
 5. Build a uniquely named next ZIP (v8 after v7) with files at archive root, 644 file permissions, portrait and case-study assets included. Exclude Git metadata, source PDF, chat context, previous ZIPs, and unnecessary duplicate portrait files. Verify ZIP integrity and extracted index bytes against current index.html.
 6. Commit/push to portfolio/melinda-kahi under the owner's ongoing authorised portfolio workflow. Check push success; do not force push or merge main without authorisation. Provide the GitHub ZIP blob URL and Download raw file instructions.
 7. Distinguish pushed source/package, cPanel upload, live hosting verification, and cloud environment publication. Do not claim one proves another.
+
+## 7 November 2026 — v8 iteration
+
+- Removed the photo picker and localStorage preview code. Portrait is now code-managed only.
+- Product cards lead with original screenshots. Documentation/launch links are visible outside accordions in sticky resource bars. No product screenshots were removed.
+- Owner uploaded assets/People Skills.png; deployment copy is assets/people-skills.png. Added product design ownership, partner engineering/architecture alignment, time-zone/communication blocker resolution, and privacy/security/accessibility/technical/non-functional rollout support to the Skills story.
+- Navigation label changed from Case studies to Product explorations to distinguish independent concepts. Existing #case-studies URLs remain valid. The exploration remains a full article.
+- Added three attributed LinkedIn recommendation excerpts on Home: Araz Abishov (teammate, 2 Nov 2026), Filip Nicolaisen (direct manager, 27 Oct 2026), Thomas Mwanja (teammate, 6 Jan 2021). Source was the owner’s screenshot; excerpt labels and Read more controls preserve attribution and progressive disclosure. Never fabricate reviewer URLs or alter quoted wording.
+- elizabethgikebe.com could not be inspected: configured proxy returned CONNECT 403; shared desktop capabilities/tools are absent. Suggestions are independent design recommendations, not claims about that site. User asked how to unblock: add apex and www hosts in environment Internet access settings, preserving existing domains; alternatively supply screenshots. Continue reference review if access becomes available.
+- Verified browser checks on desktop, 390px and 768px: all five routes, portrait, no photo controls, recommendations, product accordions, sticky links, images and overflow. Local testing uses a loopback-only server (127.0.0.1); automatic review rejected binding to all interfaces.
+- New cumulative package: melinda-kahi-portfolio-purple-v8.zip. portfolio-v8.html is an identical fresh-filename diagnostic entry; portfolio-v6.html remains synchronized. There is no visible release label. Older ZIP files are historical and are not the current download.
