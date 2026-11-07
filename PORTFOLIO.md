@@ -12,7 +12,7 @@ Approved design: purple theme, Arial, 20px desktop / 18px mobile reading text, p
 
 ## Deployment
 
-Public domain: https://melindakahipm.com/. Hosting: Namecheap with cPanel; document root /public_html. Latest package at documentation update: melinda-kahi-portfolio-purple-v9.zip, on branch portfolio/melinda-kahi.
+Public domain: https://melindakahipm.com/. Hosting: Namecheap with cPanel; document root /public_html. Latest package at documentation update: melinda-kahi-portfolio-purple-v10.zip, on branch portfolio/melinda-kahi.
 
 Download the selected versioned ZIP from GitHub using Download raw file. Upload it into public_html, extract there, and overwrite existing files. index.html must be directly inside the document root, alongside assets/. Uploading the ZIP without extraction does not update the site. Preserve unrelated hosting files and DNS records.
 
